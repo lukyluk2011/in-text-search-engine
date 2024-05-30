@@ -1,0 +1,1 @@
+Konstanta Coulombova zákona, označovaná jako kk, závisí na prostředí, ve kterém se náboje nacházejí. Pro vakuum nebo vzduch je tato konstanta konstantní, ale v jiných médiích se může lišit.

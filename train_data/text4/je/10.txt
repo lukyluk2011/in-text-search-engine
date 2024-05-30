@@ -1,0 +1,74 @@
+Zdroj: commons.wikimedia.org. Public domain.
+
+Již Joseph Priestley v roce 1767 a Henry Cavendish v roce 1771 soudili, že se síla mezi náboji zmenšuje se čtvercem vzdálenosti. Až francouzský fyzik Charles Coulomb v roce 1785 změřil pomocí torzních vah síly, kterými na sebe působily dvě nabité kuličky.
+
+Torzní váhy k měření elektrického náboje.
+Zdroj: Techmania Science Center. Autor: Pavel Trnka. Under Creative Commons.
+
+Jako nulovou polohu zvolil vzájemně se dotýkající neelektrované kuličky, tzn. že vlákno v tu chvíli nebylo překrouceno. Kuličku zvenku elektroval a stejným nábojem se nabila i kulička druhá. V tu chvíli se začaly odpuzovat a kulička na vlákně se pootočila. Při prvním nastavení naměřil úhel 36°. Při poloviční vzdálenosti naměřil 144°, při čtvrtinové vzdálenosti 576°. Všechny údaje dal do poměru. Pro vzdálenosti v poměru 4:2:1 naměřil výchylky 36:144:576, což je 1:4:16. Měření prokázala, že velikost síly, kterou na sebe působí dva bodové náboje Q1 a Q2 je nepřímo úměrná druhé mocnině jejich vzdálenosti, nebo–li
+
+Silové působení obou nábojů je přitom vzájemné, elektrické síly jsou typickým příkladem sil akce a reakce. Počítáme–li pouze velikost elektrické síly, dosazujeme do Coulombova zákona absolutní hodnoty obou nábojů, tedy bez ohledu na znaménko. Mají–li oba náboje stejná znaménka, vzniklá síla je odpudivá. Jestliže oba náboje mají opačná znaménka, je přitažlivá.
+
+Konstanta k závisí na prostředí, ve kterém jsou sledované náboje. Měřili ji různí fyzikové různými metodami (např. E. B. Rosa a N. E. Dorsey). Pro vzduch je k = 8,98776 ∙ 109 = 9 ∙ 109 N m2 C-2. Konstantu k v Coulombově zákonu píšeme v případě jiných prostředí než je vakuum nebo vzduch ve tvaru
+
+kde ε je permitivita, ε0 je permitivita vakua (její hodnota je ε0 = 8,85 ∙ 10-12 C2 N-1 m-2) a εr je relativní permitivita. Pro vakuum je εr = 1, pro všechna ostatní prostředí je εr > 1, např. pro vodu εr ≈ 81. Relativní permitivita vyjadřuje, kolikrát je permitivita nějakého prostředí větší než permitivita vakua. Hodnoty relativní permitivity pro různá prostředí jsou uvedena v následující tabulce:
+
+materiál
+	
+
+relativní permitivita
+
+vakuum
+	
+
+1
+
+vzduch
+	
+
+1,000 54
+
+olej ricinový
+	
+
+4,5
+
+slída
+	
+
+5,4
+
+olej silikonový
+	
+
+2,7
+
+voda (20 °C)
+	
+
+80,4
+
+plexisklo
+	
+
+3,7
+
+porcelán
+	
+
+6,5
+
+paraﬁn
+	
+
+1,7 – 2,3
+
+papír kondenzátorový
+	
+
+3,5
+
+Z hlediska technického využití je významná skupina krystalických látek s extrémně vysokými hodnotami relativní permitivity (103 – 104), které se nazývají feroelektrické nebo také seignettoelektrické. Do této skupiny látek patří Seignetova sůl, fosforečnan draselný a jemu příbuzné látky. Používají se při výrobě kondenzátorů, v elektrooptických a elektronických zařízeních. Relativní permitivita těchto látek závisí na teplotě.
+
+Coulombův zákon je formálně podobný Newtonově gravitačnímu zákonu. Rozdíl je v tom, že gravitační síla může být jen přitažlivá, kdežto elektrická může být přitažlivá i odpudivá.
+Číst dále 

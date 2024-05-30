@@ -1,0 +1,1 @@
+Coulombův zákon je analogický s Newtonovým gravitačním zákonem, ale místo hmotnosti se zde jedná o elektrický náboj. Zatímco gravitační síla je vždy přitažlivá, elektrická síla může být jak přitažlivá, tak odpudivá, v závislosti na znaménku náboje.

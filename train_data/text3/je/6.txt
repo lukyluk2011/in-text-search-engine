@@ -1,0 +1,3 @@
+Postavme na startovní čáru slavnou želvu a zajíce, kteří vyběhnou ve stejný okamžik z téhož místa a běží po stejné cestě do cíle. Tam doraí určitě dřív zajíc než želva. Veličina, která by odlišila oba pohyby se nazývá průměrná rychlost. K popisu pohybu používáme tzv. kinematické veličiny, jejichž značky pocházejí z těchto slov: spatium (dráha), velocitas (rychlost), tempus (čas). Průměrná rychlost se vypočítá jako
+
+Jednotkou rychlosti je m s–1, často se však používá jednotka km h–1. K převodu těchto jednotek můžeme použít tyto vztahy

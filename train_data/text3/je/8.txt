@@ -1,0 +1,6 @@
+Dosud jsme uvažovali jen o velikosti rychlosti. K určení rychlosti potřebujeme kromě její velikosti znát i její směr. Rychlost je tedy veličina vektorová, okamžitá rychlost má vždy směr tečny k trajektorii v daném místě.
+
+Rychlost jako vektorová veličina.
+Zdroj: Techmania Science Center. Autor: Magda Králová. Under Creative Commons.
+
+K měření okamžité rychlosti slouží tachometr. Ohebná spojka, vedená z automobilové převodovky, otáčí malým permanentním magnetem rychlostí úměrnou rychlosti auta. Rotující magnet je obklopen dutým hliníkovým bubínkem, který je spojen s ručičkou tachometru. Na druhé straně hliníkového bubínku je umístěn pevný železný prstenec. Při pohybu magnetu indukuje magnetické pole uzavřené mezi magnetem a železným prstencem v hliníkovém bubínku malé elektrické proudy. Ty způsobují, že se bubínek snaží rotovat. Proti tomuto pohybu působí slabá pružina. Čím rychleji se magnet otáčí, tím více se ručička tachometru vychýlí. U letadel se rychlost měří pomocí pittotovy trubice. Radar na měření rychlosti využívá dopplerova jevu.
