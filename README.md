@@ -1,2 +1,2 @@
 # in-text-search-engine
-You enter the text and part of the child's paper into the model and it will tell you whether it is described from the first entered text or not.
+download teach_data first. then run the python code and it will make you an onnx file. that's all. it's not difficult but demanding for a PC.
