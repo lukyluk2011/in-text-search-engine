@@ -1,1 +1,0 @@
-Relativní permitivita prostředí, vyjádřená symbolicky jako εrεr​, hraje roli při určování hodnoty konstanty Coulombova zákona. Tato hodnota určuje schopnost prostředí polarizovat se v reakci na elektrické pole.

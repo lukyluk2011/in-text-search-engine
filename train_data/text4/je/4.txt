@@ -1,3 +1,0 @@
-Silové působení obou nábojů je přitom vzájemné, elektrické síly jsou typickým příkladem sil akce a reakce. Počítáme–li pouze velikost elektrické síly, dosazujeme do Coulombova zákona absolutní hodnoty obou nábojů, tedy bez ohledu na znaménko. Mají–li oba náboje stejná znaménka, vzniklá síla je odpudivá. Jestliže oba náboje mají opačná znaménka, je přitažlivá.
-
-Konstanta k závisí na prostředí, ve kterém jsou sledované náboje. Měřili ji různí fyzikové různými metodami (např. E. B. Rosa a N. E. Dorsey). Pro

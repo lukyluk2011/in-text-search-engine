@@ -1,1 +1,0 @@
-Silové působení obou nábojů je přitom vzájemné, elektrické síly jsou typickým příkladem sil akce a reakce. Počítáme–li pouze velikost elektrické síly, dosazujeme do Coulombova zákona absolutní hodnoty obou nábojů, tedy bez ohledu na znaménko.

@@ -1,1 +1,0 @@
-Velikost elektrické síly mezi dvěma náboji je přímo úměrná součinu jejich nábojů a nepřímo úměrná druhé mocnině vzdálenosti mezi nimi. To znamená, že se síla mezi náboji zmenšuje s rostoucí vzdáleností.

@@ -1,1 +1,0 @@
-Coulombův zákon, pojmenovaný po francouzském fyzikovi Charlesem Coulombovi, je základním principem elektrostatiky, který popisuje sílu působící mezi elektricky nabitými tělesy. Tento zákon byl poprvé formulován v 18. století a poskytuje matematický vztah pro výpočet elektrické síly mezi náboji.
