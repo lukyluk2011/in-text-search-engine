@@ -4,7 +4,6 @@ from torch.utils.data import Dataset, DataLoader
 from torch import nn, optim
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
-from scipy.sparse import csr_matrix
 
 class TextDataset(Dataset):
     def __init__(self, data, labels):
@@ -12,7 +11,7 @@ class TextDataset(Dataset):
         self.labels = labels
 
     def __len__(self):
-        return len(self.data)
+        return len(self.labels)
 
     def __getitem__(self, idx):
         return torch.tensor(self.data[idx].todense(), dtype=torch.float32), torch.tensor(self.labels[idx], dtype=torch.long)
@@ -27,7 +26,7 @@ def load_data_from_directory(directory):
             if os.path.isfile(text_file_path):
                 with open(text_file_path, 'r', encoding='utf-8') as f:
                     main_text = f.read()
-                
+
                 for label in ['je', 'není']:
                     label_dir = os.path.join(subdir_path, label)
                     if os.path.isdir(label_dir):
@@ -38,6 +37,7 @@ def load_data_from_directory(directory):
                                     content = f.read()
                                     data.append(content)
                                     labels.append(1 if label == 'je' else 0)
+
     return data, labels
 
 def vectorize_data(data):
@@ -59,7 +59,7 @@ class SimpleNN(nn.Module):
         return x
 
 # Načtení a příprava dat
-train_data_dir = '../train_data'
+train_data_dir = '/content/train_data/train_data'
 data, labels = load_data_from_directory(train_data_dir)
 
 # Rozdělení dat na trénovací a testovací sadu
@@ -87,13 +87,14 @@ criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.001)
 
 # Trénování modelu
-for epoch in range(5):  # Tréninkový cyklus přes 5 epoch
+for epoch in range(1000000):  # Tréninkový cyklus přes 10 epoch
     model.train()
     running_loss = 0.0
     for inputs, labels in train_loader:
         optimizer.zero_grad()
-        outputs = model(inputs)
-        loss = criterion(outputs, labels)
+        outputs = model(inputs).squeeze(1)  # Použití squeeze k odstranění extra dimenze
+        print(f'outputs shape: {outputs.shape}, labels shape: {labels.shape}')
+        loss = criterion(outputs, labels)  # Předáno přímo
         loss.backward()
         optimizer.step()
         running_loss += loss.item()
@@ -108,7 +109,7 @@ correct = 0
 total = 0
 with torch.no_grad():
     for inputs, labels in test_loader:
-        outputs = model(inputs)
+        outputs = model(inputs).squeeze(1)  # Použití squeeze k odstranění extra dimenze
         _, predicted = torch.max(outputs, 1)
         total += labels.size(0)
         correct += (predicted == labels).sum().item()
