@@ -59,7 +59,7 @@ class SimpleNN(nn.Module):
         return x
 
 # Načtení a příprava dat
-train_data_dir = './train_data'
+train_data_dir = '../train_data'
 data, labels = load_data_from_directory(train_data_dir)
 
 # Rozdělení dat na trénovací a testovací sadu
